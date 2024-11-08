@@ -9,7 +9,7 @@ public class PrecisionComparison {
         double vatRate = 0.23;
         int quantity = 10000;
 
-        // Kalkulacja przy użyciu double
+        // Kalkulacja przy użyciu doub
         double priceBruttoDouble = priceNetto * (1 + vatRate); // Wartość brutto
         double totalBruttoDouble = priceBruttoDouble * quantity; // Całkowita wartość brutto dla 10000 szt.
         double totalNettoDouble = totalBruttoDouble / (1 + vatRate); // Wartość netto po odjęciu VAT
